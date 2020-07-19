@@ -1,3 +1,7 @@
+/**
+https://www.youtube.com/watch?v=83YOU4HTQ5I
+**/
+
 class Node {
   constructor(data, next = null) {
     this.data = data;
