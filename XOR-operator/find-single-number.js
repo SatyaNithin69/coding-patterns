@@ -20,3 +20,9 @@ function find_single_number(arr) {
   return num;
 }
 console.log(find_single_number([1, 4, 2, 1, 3, 2, 3]));
+
+/**
+Time Complexity: Time complexity of this solution is O(n)O(n) as we iterate through all numbers of the input once.
+
+Space Complexity: The algorithm runs in constant space O(1).
+**/
