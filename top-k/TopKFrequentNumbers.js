@@ -12,6 +12,8 @@ Input: [5, 12, 11, 3, 11], K = 2
 Output: [11, 5] or [11, 12] or [11, 3]
 Explanation: Only '11' appeared twice, all other numbers appeared once.
 
+https://www.youtube.com/watch?v=Q9ioqf28Ds4&list=PLt4nG7RVVk1j4vPcIqLqUZLOlOyd8KHw5&index=10&t=2s
+
 **/
 
 const Heap = require("collections/heap"); //http://www.collectionsjs.com
