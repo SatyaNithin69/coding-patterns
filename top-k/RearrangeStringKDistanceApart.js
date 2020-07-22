@@ -28,6 +28,9 @@ Explanation: We cannot find an arrangement of the string where any two 'a' are 3
 /**
 we use que as it is FIFO , we push to queue and if it reaches k length then we will push back to Heap
 
+Following a similar approach, since we were inserting a character back in the heap in the next iteration, in this problem, we will re-insert the character 
+after ‘K’ iterations. We can keep track of previous characters in a queue to insert them back in the heap after ‘K’ iterations.
+
 **/
 
 const Heap = require("collections/heap");
