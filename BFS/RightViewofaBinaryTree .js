@@ -1,6 +1,9 @@
 /**
 Given a binary tree, return an array containing nodes in its right view. The right view of a binary tree is the set of nodes visible when 
 the tree is seen from the right side.
+
+https://www.youtube.com/watch?v=_QaB7SuWWIU
+
 **/
 
 const Deque = require('./collections/deque'); //http://www.collectionsjs.com
