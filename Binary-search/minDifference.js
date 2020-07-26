@@ -25,6 +25,12 @@ https://www.youtube.com/watch?v=3RhGdmoF_ac
 function search_min_diff_element(arr, key) {
   let start = 0;
   let end = arr.length - 1;
+  if (key < arr[start]) {
+    return arr[0];
+  }
+  if (key > arr[end]) {
+    return arr[end];
+  }
   while (start <= end) {
     let mid = Math.floor((start + end) / 2);
     if (key < arr[mid]) {
@@ -42,3 +48,4 @@ console.log(search_min_diff_element([4, 6, 10], 7));
 console.log(search_min_diff_element([4, 6, 10], 4));
 console.log(search_min_diff_element([1, 3, 8, 10, 15], 12));
 console.log(search_min_diff_element([4, 6, 10], 17));
+
